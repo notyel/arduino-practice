@@ -9,17 +9,17 @@ Cada carpeta dentro del repositorio representa un proyecto independiente con su 
 
 ```bash
 arduino-practice/
-├── blink/                  # Primer proyecto: encender y apagar un LED
+├── led-blink/                  # Primer proyecto: encender y apagar un LED
 └── README.md               # Este archivo
-````
+```
 
 Cada carpeta incluye su propio `README.md` con:
 
-* Descripción del proyecto
-* Componentes utilizados
-* Diagrama de conexión (si aplica)
-* Código fuente (`main.cpp`)
-* Resultado esperado
+- Descripción del proyecto
+- Componentes utilizados
+- Diagrama de conexión (si aplica)
+- Código fuente (`main.cpp`)
+- Resultado esperado
 
 ---
 
@@ -58,11 +58,11 @@ Se busca fomentar el uso de **PlatformIO**, una herramienta moderna, flexible y 
 
 ## 🧩 Requisitos
 
-* **Visual Studio Code**
-* **Extensión PlatformIO IDE**
-* **Placa Arduino compatible** (UNO, Nano, Mega, etc.)
-* **Cable USB** para conexión y carga
-* **Componentes electrónicos** según cada práctica (LEDs, resistencias, sensores, servos, etc.)
+- **Visual Studio Code**
+- **Extensión PlatformIO IDE**
+- **Placa Arduino compatible** (UNO, Nano, Mega, etc.)
+- **Cable USB** para conexión y carga
+- **Componentes electrónicos** según cada práctica (LEDs, resistencias, sensores, servos, etc.)
 
 ---
 
