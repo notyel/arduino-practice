@@ -9,7 +9,7 @@ Cada carpeta dentro del repositorio representa un proyecto independiente con su 
 
 ```bash
 arduino-practice/
-├── led-blink/                  # Primer proyecto: encender y apagar un LED
+├── led-blink/              # Primer proyecto: encender y apagar un LED
 └── README.md               # Este archivo
 ```
 
