@@ -3,12 +3,12 @@
 float vOut;
 float vRead = A0;
 float analogValue;
-int LED_PIN = 11;
+int RED_LED_PIN = 11;
 
 void setup()
 {
   pinMode(vRead, INPUT);
-  pinMode(LED_PIN, OUTPUT);
+  pinMode(RED_LED_PIN, OUTPUT);
   Serial.begin(9600);
 }
 
@@ -18,11 +18,11 @@ void loop()
   vOut = (analogValue * 5.0) / 1023.0;
   if (vOut >= 4.0)
   {
-    digitalWrite(LED_PIN, HIGH);
+    digitalWrite(RED_LED_PIN, HIGH);
   }
   else
   {
-    digitalWrite(LED_PIN, LOW);
+    digitalWrite(RED_LED_PIN, LOW);
   }
 
   Serial.println(vOut);

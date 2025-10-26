@@ -1,17 +1,17 @@
 #include <Arduino.h>
 
-const int LED_PIN = 11;
+const int RED_LED_PIN = 11;
 
 void setup()
 {
-  pinMode(LED_PIN, OUTPUT);
+  pinMode(RED_LED_PIN, OUTPUT);
 }
 
 void loop()
 {
-  digitalWrite(LED_PIN, HIGH);
+  digitalWrite(RED_LED_PIN, HIGH);
   delay(1000);
 
-  digitalWrite(LED_PIN, LOW);
+  digitalWrite(RED_LED_PIN, LOW);
   delay(1000);
 }
