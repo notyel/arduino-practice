@@ -10,7 +10,8 @@ Cada carpeta dentro del repositorio representa un proyecto independiente con su 
 ```bash
 arduino-practice/
 ├── led-blink/              # Primer proyecto: encender y apagar un LED
-└── README.md               # Este archivo
+├── analog-led/             # Proyecto para controlar el brillo del LED con salida analógica (PWM)
+└── README.md               # Descripción general del repositorio
 ```
 
 Cada carpeta incluye su propio `README.md` con:
